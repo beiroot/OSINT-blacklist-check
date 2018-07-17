@@ -19,9 +19,11 @@ Usage:
 Options:
 
   -h  --help     Show this screen.
+  
   -t <timeout>   Sets dns query timeout [default: 1]
+    
   -l <lifetime>  Sets dns query lifetime [default: 1]
-
+ 
 
 -t and -l are used to set dns query timeout (wait for response from the server) and lifetime (wait for query to execute)
 
